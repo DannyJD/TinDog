@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@500&display=swap");
+
+/* Universal Utilities */
+
+/* * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+} */
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Title */
+
+#title {
+  background-color: #ff3c68;
+  color: #fff;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  size: 3.5rem;
+  line-height: 1.5;
+}
+
+/*  Image  */
+#title_img {
+  transform: rotate(25deg);
+  width: 60%;
+}
+
+/*  Nav Bar */
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+}
+
+/* Features */
+
+#features {
+  text-align: center;
+  max-width: 100%;
+}
+.feature-icon {
+  color: #f17faf;
+  font-size: 3rem;
+  padding: 50px 0 20px 0;
+}
+.feature-icon:hover {
+  color: #ef1872;
+  font-size: 3rem;
+  padding: 50px 0 20px 0;
+}
+
+h3 {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+#features p {
+  color: #8f8f8f;
+}
